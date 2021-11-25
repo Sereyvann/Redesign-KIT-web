@@ -1,0 +1,185 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins',sans-serif;
+}
+
+header{
+    background: white;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
+.ml-left{
+    margin-left: 50px;
+}
+
+.navbar-toggler-icon .icon-bar{
+    background-color: black;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    margin: 5px;
+}
+
+button:focus{
+    outline: none;
+    border-color: transparent;
+}
+
+.navbar-nav li a{
+    color: black;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.social-icons-header li a i{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    padding: 99px 9px;
+    border-radius: 50%;
+    margin-right: 0px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+
+.social-icons-header{
+    position: absolute;
+    right: 25px;
+    top: auto;
+    transition: all ease 1s;
+}
+
+.adjust-img{
+    height: 500px;
+}
+
+/* ABOUT KIT */
+
+.abount{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.about .container{
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.image-section{
+    float: right;
+    width: 40%;
+}
+
+.image-section img{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.content-section .content h3{
+    margin-top: 20px;
+}
+
+.content-section .content p{
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+} 
+
+/* VC */
+
+h2{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.VC h2{
+    margin-top: 600px;
+}
+
+.VC .container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.VC-logo{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+/* CONTACT */
+
+.contact{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: ;
+    height: 500px;    
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 30px;
+}
+.contact-form{
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+.contact-form>input{
+    padding: 5px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 7px;
+}
+.footer-logo>img{
+    width: 100%;
+    border-radius: 10px;
+    size: 20px;
+ }
+.copyright-text{
+    text-align: center;
+}
